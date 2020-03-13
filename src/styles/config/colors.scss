@@ -1,0 +1,18 @@
+.el {
+    background-color: lightgrey;
+  }
+
+$types: alkaliMetal lanthanide nobleGas transitionMetal postTransitionMetal alkalineEarthMetal actinide metalloid otherNonMetal;
+
+// Pour chaque modifier
+@each $type in $types {
+    .el--#{$type} {
+        // Changement de couleur en fonction du cercle chromatique
+        // index($types, $type)*30deg  -->  On génère un indexe pour chaque boucle (1 puis 2 puis 3...)
+        /* (360deg / length($types))  -->   Pour ne pas tomber 2 fois sur la même couleur, on le divise le cercle chromatique.
+            par le nombre d'éléments présent dans le tableau $types */
+
+        background-color: hsl(index($types, $type) * (360deg / length($types)), 90%, 89%);
+        
+    }
+  }
