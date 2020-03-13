@@ -1,0 +1,24 @@
+{
+  "name": "projet-devfront-bcharrier",
+  "version": "1.0.0",
+  "description": "Projet développement Front End réalisé lors du quatrième semestre de mon DUT MMI. Le sujet que j'ai choisi de présenter est le cloud gaming. Baptiste Charrier",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Batrap17/projet-devfront-bcharrier.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Batrap17/projet-devfront-bcharrier/issues"
+  },
+  "homepage": "https://github.com/Batrap17/projet-devfront-bcharrier#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "sass": "^1.26.3"
+  }
+}
