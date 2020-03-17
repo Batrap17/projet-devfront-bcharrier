@@ -1,3 +1,38 @@
 .presentation{
-    background-color: #1c1d1f;
+  background-color: #1c1e20;
+  color:white;
+  height: calc(100vh - var(--height-header));
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--height-header);
+  justify-content: space-around;
+}
+
+.presentation__oculus{    
+  margin: 20px 0 0px;
+  object-fit: scale-down;
+}
+
+.title{
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0 10px;
+  padding: 0 10px;
+  margin-top: 20px;
+}
+
+.button--presentation {
+  color: white;
+  border: 10px solid white;
+  padding: 15px 30px;
+  border-radius: 35px;
+  transition: 0.5s;
+  margin: auto;
+}
+
+.button--presentation:hover {
+  background-color: rgba(255, 255, 255, 0.911);
+  border-color: black;
+  color: black;
 }
