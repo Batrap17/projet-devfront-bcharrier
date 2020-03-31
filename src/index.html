@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="styles/style.scss" type="text/css" />
     <title>Projet Front Baptiste Charrier</title>
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
@@ -14,20 +16,46 @@
             <img class="logo__image" src="assets/image/oculus-logo.png" alt="logo oculus">
         </a>
         <h1 class="navigation__title">Oculus rift S</h1>
-        <nav class="navigation__menu">
-            <span class="menu__rod"></span>
-            <span class="menu__rod"></span>
-            <span class="menu__rod"></span>
-        </nav>
+        <span class="material-icons navigation__shopping">shopping_cart</span>
     </header>
 
-    <section class="presentation">
-        <h1 class="title presentation__title">Oculus Rift S</h1>
+    <section class="presentation" id="presentation">
+        <h1 class="title">Oculus Rift S</h1>
         <figure class="presentation__oculus">
             <img src="assets/image/oculus-de-dos.png" alt="oculus rift s vue de dos"/>
             <figcaption class="title presentation__tagline">"Moins de contraintes,<br/> plus de liberté."</h1></figcaption>
         </figure>
-        <a class="button--presentation" href="#">Découvrir</a>
+        <a class="button--presentation" href="#presentation">Découvrir</a>
+    </section>
+
+    <section class="sensors">
+        <h1 class="title">Fini les capteurs encombrants</h1>
+        <img class="sensors__innovation" src="assets/image/oculus-men.png" alt="joueur oculus rift s icone">
+        <div class="sensors__image">
+            <p class="sensors__description">L'oculus rift S est doté de cinq caméras qui détecte constament
+            l'espace dans lequel vous évoluez.
+            Plus qu'une fonctionnalité gadget, une révolution dans le monde du virtuel ! Nos ingénieurs ont tous donné pour vous offrir cette alternative qui vous offres plus de liberté tous en augmentant la précision et la cohérance entre le monde virtuel et le réel.</p>
+        </div>
+        </section>
+
+    <section class="confort">
+        <h1 class="title">Plus de détailles, plus de confort</h1>
+        <img class="confort__screen" src="assets/image/casque-dessous.png" alt="écran oculus rift s">
+        <div class="confort__stat">
+            <div>
+                <span class="material-icons stat--icons">visibility</span>
+                <p>110°</p>
+            </div>
+            <div>
+                <span class="material-icons stat--icons">memory</span>
+                <p>80Hz</p>
+            </div>
+            <div>
+                <span class="material-icons stat--icons">aspect_ratio</span>
+                <p>2560 x 1440</br>pixels</p>
+            </div>
+            
+        </div>
     </section>
     
 </body>

@@ -10,3 +10,14 @@ img {
 li,a,p,h1,h2,h3,h4,h5,figcaption{
   font-family: 'Oswald', sans-serif;
 }
+
+.title{
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.5;
+  padding: 20px
+}
+
+section{
+  height: calc(100vh - var(--height-header));
+}

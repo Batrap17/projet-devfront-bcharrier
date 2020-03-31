@@ -1,7 +1,6 @@
 .presentation{
   background-color: #1c1e20;
   color:white;
-  height: calc(100vh - var(--height-header));
   display: flex;
   flex-direction: column;
   margin-top: var(--height-header);
@@ -9,17 +8,7 @@
 }
 
 .presentation__oculus{    
-  margin: 20px 0 0px;
-  object-fit: scale-down;
-}
-
-.title{
-  font-size: 2rem;
-  text-align: center;
-  line-height: 1.5;
-  margin: 0 10px;
-  padding: 0 10px;
-  margin-top: 20px;
+  margin: 20px 0 0 0;
 }
 
 .button--presentation {
@@ -33,6 +22,6 @@
 
 .button--presentation:hover {
   background-color: rgba(255, 255, 255, 0.911);
-  border-color: black;
-  color: black;
+  border-color: #1c1e20;
+  color: #1c1e20;
 }

@@ -1,0 +1,27 @@
+.sensors{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.sensors__image{
+    background-image: url(./../assets/image/Oculus-Rift-S-03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 50vh;
+    align-items: center;
+    display:flex;
+}
+
+.sensors__innovation {
+    padding: 20px 0;
+}
+
+.sensors__description{
+    margin: 0 20px;
+    line-height: 1.6;
+    color: white;
+    background-color: rgba($color: #1c1e20, $alpha: 0.8);
+}
