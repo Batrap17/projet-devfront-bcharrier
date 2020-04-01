@@ -4,10 +4,22 @@
     align-items: center;
 }
 
+.controller__content{
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 1000px;
+}
+
 .controller__image{
     width: 200px;
     display: block;
     margin: 50px auto;
+
+    @include medium{
+        margin: 10px 0;
+    }
 }
 
 .controller__description{
@@ -15,4 +27,19 @@
     line-height: 1.6;
     text-align: justify;
     color: var(--oculus-color);
+
+    @include medium{
+        font-size: 1.3rem;
+        padding: 0 200px;
+    }
+}
+
+.last--controller{
+    display: none;
+    transform: scaleX(-1);
+    align-self: flex-end;
+
+    @include medium{
+        display: inline;
+    }
 }
