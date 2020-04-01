@@ -9,6 +9,31 @@
 
 .presentation__oculus{    
   margin-top: 20px;
+  justify-content: space-between;
+  
+  @include small{
+    display:flex;
+  }
+
+  @include medium{
+  }
+}
+
+.presentation__image{
+  max-height: 70vh;
+}
+
+.presentation__tagline{
+  order:-1;
+  min-width: 60vw;
+
+  @include medium{
+    min-width: 40vw;
+  }
+
+  @include extra-large{
+    font-size: 3rem;
+  }
 }
 
 .presentation__button {

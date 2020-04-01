@@ -3,3 +3,16 @@
     @content;
   }
 }
+
+@mixin medium {
+  @media (min-width:700px) {
+    @content;
+  }
+}
+
+@mixin extra-large {
+  @media (min-width:1500px) {
+    @content;
+  }
+}
+
