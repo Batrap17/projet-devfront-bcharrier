@@ -11,7 +11,7 @@
   margin: 20px 0 0 0;
 }
 
-.button--presentation {
+.presentation__button {
   color: white;
   border: 10px solid white;
   padding: 15px 30px;
@@ -20,8 +20,6 @@
   margin: auto;
 }
 
-.button--presentation:hover {
-  background-color: rgba(255, 255, 255, 0.911);
-  border-color: #1c1e20;
-  color: #1c1e20;
+.presentation__button:hover {
+  letter-spacing: 3px;
 }

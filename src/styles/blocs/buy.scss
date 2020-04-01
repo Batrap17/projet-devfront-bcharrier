@@ -1,0 +1,35 @@
+.buy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy__pack{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 190px;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+.buy__subtitle{
+    color: #1c1e20;
+}
+
+.buy__price{
+    font-size: 2rem;
+    color: #1c1e20;
+}
+
+.buy__button {
+    color: #1c1e20;
+    border: 5px solid #1c1e20;
+    padding: 7px 14px;
+    border-radius: 35px;
+    margin: 0 auto;
+  }
+  
+.pack__image{
+    height: 18vh;
+}
