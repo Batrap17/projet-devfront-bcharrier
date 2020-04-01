@@ -4,13 +4,42 @@
     align-items: center;
 }
 
+.buy__offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.buy__article{
+    margin: 0 10vw;
+
+    @include large{
+        margin: 0 50px;
+    }
+}
+
+.article--pack{
+    @include medium{
+        order:3;
+    }
+    @include large{
+        order:1;
+    }
+}
+
+.article--bandeau{
+    order:2;
+}
+
 .buy__pack{
     display: flex;
     text-align: center;
     flex-direction: column;
-    height: 190px;
+    height: 160px;
     justify-content: space-between;
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
 }
 
 .buy__subtitle{
