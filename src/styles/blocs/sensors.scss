@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     text-align: justify;
+    justify-content: center;
+    align-items: center;
 }
 
 .sensors__image{
@@ -13,10 +15,20 @@
     height: 50vh;
     align-items: center;
     display:flex;
+
+    @include medium{
+        height: 100%;
+    }
+
 }
 
 .sensors__innovation {
     padding: 20px 0;
+    max-width: 500px;
+
+    @include medium{
+        display: none;
+    }
 }
 
 .sensors__description{
@@ -24,4 +36,12 @@
     line-height: 1.6;
     color: white;
     background-color: rgba($color: var(--oculus-color), $alpha: 0.8);
+    
+    @include medium{
+        padding: 0 20vw;
+    }
+
+    @include extra-large{
+        padding: 0 30vw;
+    }
 }
