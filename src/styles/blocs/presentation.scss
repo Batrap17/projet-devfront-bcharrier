@@ -1,5 +1,5 @@
 .presentation{
-  background-color: #1c1e20;
+  background-color: var(--oculus-color);
   color:white;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
 }
 
 .presentation__oculus{    
-  margin: 20px 0 0 0;
+  margin-top: 20px;
 }
 
 .presentation__button {
@@ -17,7 +17,7 @@
   padding: 15px 30px;
   border-radius: 35px;
   transition: 0.5s;
-  margin: auto;
+  margin: 0 auto 20px auto;
 }
 
 .presentation__button:hover {

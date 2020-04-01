@@ -14,17 +14,17 @@
 }
 
 .buy__subtitle{
-    color: #1c1e20;
+    color: var(--oculus-color);
 }
 
 .buy__price{
     font-size: 2rem;
-    color: #1c1e20;
+    color: var(--oculus-color);
 }
 
 .buy__button {
-    color: #1c1e20;
-    border: 5px solid #1c1e20;
+    color: var(--oculus-color);
+    border: 5px solid var(--oculus-color);
     padding: 7px 14px;
     border-radius: 35px;
     margin: 0 auto;
