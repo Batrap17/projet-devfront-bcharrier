@@ -25,3 +25,29 @@ bandeau.addEventListener("mouseover", function(){
 bandeau.addEventListener("mouseout", function(){
     bandeau.textContent="Bandeau";
 });
+
+
+
+
+
+// Utilisation de la librairie WAYPOINT
+
+// Définitions des ids visé
+var ids = ['confort', 'buy'];
+
+ids.forEach(function(id){
+
+    var element = document.getElementById(id);
+
+    var waypoint = new Waypoint({
+        element: element,
+        handler: function(direction) {
+            element.classList.add('is-reached');
+        },
+        offset: '20%'
+    })
+
+});
+
+
+  

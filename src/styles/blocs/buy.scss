@@ -17,6 +17,9 @@
     align-items: center;
     flex-wrap: wrap;
     height: 100%;
+    opacity: 0;
+    transform: translateY(100px) scale(0.7);
+    transition: 0.5s;
 }
 
 .buy__article{
